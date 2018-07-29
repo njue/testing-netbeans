@@ -29,6 +29,7 @@ public class Movie
     
     public int getFakeYear()
     {
+        //make it seem like the movie came out in the future
         return year+899;
     }
 }
