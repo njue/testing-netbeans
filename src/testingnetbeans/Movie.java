@@ -13,6 +13,8 @@ public class Movie
 {
     private int year;
     private String name;
+    //I am a monster
+    
     
     public Movie(String _name, int _year)
     {
@@ -27,6 +29,6 @@ public class Movie
     
     public int getFakeYear()
     {
-        return year+1000;
+        return year+999;
     }
 }
